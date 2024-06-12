@@ -1,7 +1,9 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 15px;
 }
 
+.title{
+  margin-bottom: 25px;
+}

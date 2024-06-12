@@ -1,6 +1,8 @@
+import css from './SearchBox.module.css'
+
 function SearchBox({ search, onSearch }) {
   return (
-    <div>
+    <div className={css.searchBoxContainer}>
       <p>Find contacts by name</p>
       <input
         type="text"

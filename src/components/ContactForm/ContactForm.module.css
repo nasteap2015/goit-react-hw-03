@@ -1,0 +1,23 @@
+.contactForm{
+    border: 2px solid #000;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+    width: fit-content;
+    margin-bottom: 8px;
+}
+
+.contactFormInput{
+    width: 200px;
+    margin-bottom: 8px;
+}
+
+.errorMessage{
+    color: #DC143C;
+}
+
+.button{
+    width: 90px;
+    align-self: center;
+}
