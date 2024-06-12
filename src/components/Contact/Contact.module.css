@@ -1,0 +1,22 @@
+.contactContainer{
+    padding: 5px 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.personalData{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+    align-items: flex-start;
+}
+
+.deleteButton{
+    height: 30px;
+    text-align: center;
+}
